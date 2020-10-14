@@ -41,7 +41,7 @@ class Song
   end 
   
   def self.find_by_name(song)
-    self.all.collect{|song| song.name}.uniq
+    self.all.song = song 
     binding.pry
   end 
   
