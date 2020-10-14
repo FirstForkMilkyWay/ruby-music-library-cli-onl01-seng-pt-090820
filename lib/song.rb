@@ -6,7 +6,6 @@ class Song
   def initialize(name, artist = nil)
     @name = name 
     song.artist = artist 
-    binding.pry 
   end 
   
   def self.all 
