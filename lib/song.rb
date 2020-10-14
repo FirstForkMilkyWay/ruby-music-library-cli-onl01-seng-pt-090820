@@ -41,7 +41,7 @@ class Song
   end 
   
   def self.find_by_name(song)
-    self.all.song = song 
+    self.all.name = song 
     binding.pry
   end 
   
