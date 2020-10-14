@@ -45,8 +45,8 @@ class Song
   end 
   
   def self.find_or_create_by_name(song)
-    self.find_by_name(song) || 
-    binding.pry 
+    self.find_by_name(song) || song = Song.new(song)
+    @@all << song 
   end
   
 
