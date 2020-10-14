@@ -30,10 +30,6 @@ class Song
     new_song
   end 
   
-  def artist=(song)
-    Artist.add_song(song)
-  end 
-  
 
 
 end 
