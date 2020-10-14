@@ -29,6 +29,10 @@ class Song
     new_song.save
     new_song
   end 
+  
+    def add_song=(song)
+    self.song = song
+    end 
 
 
 end 
