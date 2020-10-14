@@ -26,5 +26,8 @@ class Genre
     artist.save
     artist 
   end 
+  
+  def artists 
+    
 
 end 
