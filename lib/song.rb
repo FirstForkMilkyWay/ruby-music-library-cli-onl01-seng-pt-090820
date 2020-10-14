@@ -1,3 +1,4 @@
+require 'pry'
 class Song 
   attr_accessor :name 
   attr_reader :artist, :genre 
@@ -41,6 +42,7 @@ class Song
   
   def self.find_by_name(song)
     self.all.collect{|song| song.name}.uniq
+    binding.pry
   end 
   
 
