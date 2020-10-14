@@ -3,8 +3,9 @@ class Song
   attr_reader :artist, :genre 
   @@all = []
   
-  def initialize(name)
+  def initialize(name, artist = nil)
     @name = name 
+    binding.pry 
   end 
   
   def self.all 
