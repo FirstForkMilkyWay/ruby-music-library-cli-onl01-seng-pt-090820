@@ -30,7 +30,5 @@ class Song
     new_song
   end 
   
-  def artist=(song)
-  end 
 
 end 
