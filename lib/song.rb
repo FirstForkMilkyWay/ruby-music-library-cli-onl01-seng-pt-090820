@@ -13,7 +13,8 @@ class Song
   end 
   
   def artist=(artist)
-    self.artist = artist 
+    self.artist = artist
+    binding.pry 
   end 
   
   def save 
