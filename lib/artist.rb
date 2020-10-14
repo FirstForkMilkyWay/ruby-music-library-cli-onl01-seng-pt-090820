@@ -26,5 +26,10 @@ class Artist
     artist.save
     artist 
   end 
+  
+  def add_song(song)
+    self.song = song
+  end 
+    
 
 end 
