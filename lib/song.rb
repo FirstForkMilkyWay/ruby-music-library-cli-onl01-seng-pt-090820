@@ -13,8 +13,7 @@ class Song
   end 
   
   def artist=(artist)
-    if !@artist = nil 
-      artist.name = self.name 
+    @artist = artist 
   end 
   
   def save 
