@@ -1,3 +1,3 @@
-module Concerns::ModuleName
+module Concerns::Findable
   # Module code here
 end
